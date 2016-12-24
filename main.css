@@ -55,7 +55,7 @@ body {
 }
 
 h1 {
-  font: Bitter;
+  font: Bitter, "Open Sans", sans-serif;
   font-size: 46px;
   line-height: 1em;
   font-weight: 300;
@@ -64,7 +64,7 @@ h1 {
 }
 
 h2 {
-  font: Bitter;
+  font: Bitter, "Open Sans", sans-serif;
   font-size: 32px;
   line-height: 1em;
   font-weight: 300;
@@ -106,7 +106,7 @@ p {
 
 form {
   margin-top: 35px;
-  font: Lato, "Open Sans", sans-serif;
+  font: Muli, "Open Sans", sans-serif;
   font-size: 12px;
 }
 
@@ -197,7 +197,7 @@ color: #555;
 
 .footer {
   padding: 50px;
-  background: #DBC9A3;
+  background-color: #DBC9A3;
   color: white;
   font-size: 14px;
   text-align: center;
