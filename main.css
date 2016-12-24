@@ -1,0 +1,204 @@
+/* CSS Reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Main Styles */
+
+body {
+  font-family: Muli, "Open Sans", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: #333;
+  margin: 0px;
+}
+
+h1 {
+  font: Bitter;
+  font-size: 46px;
+  line-height: 1em;
+  font-weight: 300;
+  padding-top: 30px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font: Bitter;
+  font-size: 32px;
+  line-height: 1em;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+/*Grid */
+
+.grid {
+  width: 40%;
+  margin: 0px auto;
+}
+
+
+/* Header */
+
+.header {
+  height: 680px;
+  min-width: 380px;
+  background: url("images/background.jpg") no-repeat;
+  background-position: top right;
+  background-size: cover;
+  text-align: left;
+  padding-top: 50px  
+  padding-bottom: 30px;
+  padding-left: 14%;
+  padding-right: 45%;
+}
+
+.header img {
+  padding-top: 25px;
+}
+
+/* Form */
+
+form {
+  margin-top: 35px;
+  font: Lato, "Open Sans", sans-serif;
+  font-size: 12px;
+}
+
+.email {
+  padding: 15px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.btn-submit {
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #fff;
+  background-color: #f41f18;
+  padding: 13px;
+  border: 1px solid #f41f18;
+  border-radius: 5px;
+}
+
+
+
+/* Intro */
+
+.intro img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  margin-left: 14%;
+  margin-top: 60px;
+  float: left;
+}
+
+
+.intro {
+  padding: 50px 0;
+  background: #fff;
+}
+
+/* Work */
+
+.work {
+  padding: 50px 0;
+  background-color: #fcdba1;
+}
+
+.story-grid {
+  margin: 35px auto 0 14%;
+
+}
+
+.story {
+  width: 340px;
+  display: inline-block;
+  margin-right: 25px;
+  margin-bottom: 35px;
+  vertical-align: top left;
+}
+
+.story img {
+  width: 330px;
+}
+
+li {
+margin-bottom: 15px;
+}
+
+li:last-child {
+  margin-bottom: 0px;
+}
+
+
+.work a:link {
+color: #444;
+}
+
+.work a:hover {
+color: #555;
+}
+
+/* Contact me */
+
+.contact {
+  padding: 50px 0;
+  background-color: #fff; 
+}
+
+/* Footer */
+
+.footer {
+  padding: 50px;
+  background: #000;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+}
